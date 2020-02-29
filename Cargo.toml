@@ -43,3 +43,9 @@ path = "examples/nats-box/main.rs"
 [[example]]
 name = "serde-json"
 path = "examples/serde-json/main.rs"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
